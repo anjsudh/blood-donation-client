@@ -1,0 +1,34 @@
+.esri-widget #submit-button {
+    padding: 10px 15px !important;
+    margin-left: 0px;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+article.esri-popup__content  input {
+    width: 200px !important;
+}
+
+article.esri-popup__content  #first-name, article.esri-popup__content  #last-name {
+    width: 160px !important;
+}
+
+article.esri-popup__content {
+    height: 150px;
+}
+
+.esri-view-height-less-than-medium .esri-popup__main-container {
+    max-height: initial !important;
+    width: 450px !important;
+}
+article.esri-popup__content .pure-u-1 {
+    width: auto !important;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+article.esri-popup__content .pure-form select.pure-input-1-2 {
+    width: 70px;
+    display:block;
+}

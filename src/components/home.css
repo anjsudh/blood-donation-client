@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+.tagline {
+    font-size: 300%;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #666;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 1em;
+    margin: 2em auto;
+    max-width: 768px;
+    letter-spacing:0.16px;
+    margin-bottom: 80px;
+}
+div.pure-u-xl-1-1{
+    text-align: center;
+}
+.pure-button-primary{
+    margin: 0px 40px;
+    padding: 30px 100px!important;
+}

@@ -3,17 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.2",
+    "esri-loader": "^1.0.0",
     "postcss": "^6.0.6",
     "postcss-modules-scope": "^1.1.0",
     "postcss-modules-values": "^1.3.0",
+    "prop-types": "^15.5.10",
+    "purecss": "^1.0.0",
     "react": "^15.6.1",
     "react-arcgis": "^2.0.0",
     "react-dom": "^15.6.1",
+    "react-pure-css-modal": "^1.0.2",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "1.0.10",
-    "react-toolbar": "^0.1.1",
-    "react-toolbox": "^2.0.0-beta.12",
-    "react-tools": "^0.13.3"
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",

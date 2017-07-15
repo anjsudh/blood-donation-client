@@ -3,8 +3,11 @@
  */
 import React from 'react';
 import { Map, Widgets, Popup } from 'react-arcgis';
+import ReactDOMServer from 'react-dom/server';
+import FormPage from './Form';
+import "./map.css"
 const SearchWidget = Widgets.Search;
-const PatientMap = (props) => {
+const MapComponent = (props) => {
     return(
         <Map
             style={{ width: '100vw', height: '100vh' }}
@@ -13,7 +16,7 @@ const PatientMap = (props) => {
                 <SearchWidget position="top-right"/>
                 <Popup
                     popupProperties={{
-                        content: 'This is a random popup that I made.',
+                        content: ''+ReactDOMServer.renderToStaticMarkup(<FormPage/>),
                         location: [-122.4443, 47.2529],
                         title: 'My Popup'
                     }}
@@ -22,4 +25,4 @@ const PatientMap = (props) => {
         </Map>
     );
 }
-export default PatientMap;
+export default MapComponent;
