@@ -2,6 +2,7 @@
 @import "../node_modules/purecss/build/pure.css";
 @import "../node_modules/purecss/build/menus-core.css";
 @import "../node_modules/purecss/build/menus-horizontal.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
 
 body {
   margin: 0;
@@ -11,6 +12,8 @@ body {
 a.pure-menu-heading {
   text-transform: uppercase;
   color: #777;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 a.pure-menu-heading.pure-menu-link {
   padding: 20px;
@@ -18,4 +21,6 @@ a.pure-menu-heading.pure-menu-link {
 
 a.pure-menu-link {
   padding: 20px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }

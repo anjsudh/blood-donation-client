@@ -13,6 +13,7 @@
     "react": "^15.6.1",
     "react-arcgis": "^2.0.0",
     "react-dom": "^15.6.1",
+    "react-load-script": "0.0.6",
     "react-pure-css-modal": "^1.0.2",
     "react-redux": "^5.0.5",
     "react-router": "^4.1.1",

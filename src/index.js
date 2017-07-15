@@ -24,6 +24,5 @@ ReactDOM.render(
                 <Route path="/patients" component={MapComponent}/>
             </div>
         </BrowserRouter>
-    </Provider>,
-    document.getElementById('root')
+    </Provider>,document.getElementById('root')
 )

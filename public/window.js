@@ -1,0 +1,1 @@
+document.getElementById("submit-button").onclick=alert;

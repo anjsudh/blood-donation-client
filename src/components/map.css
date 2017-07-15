@@ -1,34 +1,56 @@
-.esri-widget #submit-button {
-    padding: 10px 15px !important;
-    margin-left: 0px;
-    margin-top:5px;
-    margin-bottom:0px;
+.esri-popup__action-text {
+    padding: 10px 15px 10px 15px !important;
+    margin: 0px 0px 5px 5px;
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+    display: block;
 }
-
+.pure-form pure-form-stacked, .pure-form pure-form-stacked  fieldset, div.pure-g {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+div.esri-popup__button.esri-popup__action, div.esri-popup__button.esri-popup__action:active, div.esri-popup__button.esri-popup__action:hover, div.esri-popup__button.esri-popup__action:visited{
+    padding: 0px!important;
+    boder:0px;
+}
+span.esri-popup__action-text{
+    margin:0px !important;
+}
+div.esri-popup__actions{
+    padding:0px 0px 15px 15px !important;
+}
 article.esri-popup__content  input {
-    width: 200px !important;
+    width: 195px !important;
 }
 
-article.esri-popup__content  #first-name, article.esri-popup__content  #last-name {
+article.esri-popup__content  #firstName, article.esri-popup__content  #lastName {
     width: 160px !important;
+    padding-bottom: 6px;
 }
 
+ h1.esri-popup__header-title{
+     font-size: 12px !important;padding-bottom: 5px;
+     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 article.esri-popup__content {
-    height: 150px;
+    height: 110px;
 }
 
 .esri-view-height-less-than-medium .esri-popup__main-container {
     max-height: initial !important;
-    width: 450px !important;
+    width: 440px !important;
 }
 article.esri-popup__content .pure-u-1 {
     width: auto !important;
-    padding: 10px;
-    padding-top: 0px;
-    padding-left: 0px;
+    padding: 0px 10px 10px 0px;
 }
 
 article.esri-popup__content .pure-form select.pure-input-1-2 {
-    width: 70px;
+    width: 60px;
     display:block;
+}
+
+h3#react-arcgis-loading-text{
+    font-size: 22px !important;padding-bottom: 5px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

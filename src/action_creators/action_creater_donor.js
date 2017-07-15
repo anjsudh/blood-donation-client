@@ -23,6 +23,7 @@ export function fetchDonors(location) {
 export function addDonor(userData) {
 
     const url = `${API_URL}`;
+    console.log(userData)
     const request = axios.post(url, userData);
     return {
         type: ADD_DONOR,
